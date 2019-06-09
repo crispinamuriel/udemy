@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Notes Application</h1>
+        <h2>Take notes!</h2>
+        <label>
+        Search Notes: <input id="search-text" type="text" placeholder="search notes">
+        </label>
+        <select id="filter-by">
+            <option disabled selected value="default">Click to Sort Notes</option>
+            <option value="byEdited">Sort by last edited</option>
+            <option value="byCreated">Sort by recently created</option>
+            <option value="byAlpha">Sort alphabetically</option>
+        </select>
+        <div id="notes"></div>
+        <button id="create-button">Create Note</button>
+        <script src="uuidv4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+        <script src="notes-functions.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
