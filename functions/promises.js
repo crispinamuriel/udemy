@@ -11,7 +11,7 @@ const getDataCallback = (callback) => {
 
 getDataCallback((err, data) => {
     if (err) {
-        console.log(err)
+        console.log(err);
     } else {
         console.log(data);
     }
